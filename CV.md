@@ -19,9 +19,9 @@ at the moment I want to try the direction Front-End Development in RSSchool!
 
 ## Education:
 
-Brest State Technical University
-Faculties: Electronics and Information systems
-Specialities: Automated Data Processing Systems
+>/Brest State Technical University
+>/Faculties: Electronics and Information systems
+>/Specialities: Automated Data Processing Systems
 
 ## Language:
 
