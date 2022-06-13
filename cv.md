@@ -13,9 +13,19 @@
 I am a calm, quiet person. I want to try to find myself in IT,
 at the moment I want to try the direction Front-End Development in RSSchool!
 
+## Skill
+
+* HTML on Code Basics
+* CSS on Code Basics
+* *See more in the near future*
+
 ## Work experience:
 
 *Nothing yet…*
+
+## Code
+
+`alert("Hello, World!");`
 
 ## Education:
 
