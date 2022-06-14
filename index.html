@@ -1,83 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Document</title>
 </head>
-<header class="header">
-    <div>
-        <nav>
-            <a class="nav_link" href="#contacts">Contacts</a>
-            <a class="nav_link" href="#about_me">About me</a>
-            <a class="nav_link" href="#skill">Skill</a>
-            <a class="nav_link" href="#work_experience">Work experience</a>
-            <a class="nav_link" href="#code">Code</a>
-            <a class="nav_link" href="#еducation">Education</a>
-            <a class="nav_link" href="#language">Language</a>
-        </nav>
-    </div>
-</header>
-<main>
-    <section class="container container_head">
-        <img  class="img_me" src="me.jpg" alt="It's was me">
-        <h1>Yauheni Bulei</h1>
-    </section>
-    
-    <section class="container container_content" itemscope itemtype="http://schema.org/Organization" >
-        <h2 id="contacts">Contacts:</h2>
-        <ul>
-            <li>Location: <span itemprop="address">Brest, Belarus</span></li>
-            <li>Phone: <span itemprop="telephone" > +375 29 2268793</span></li>
-            <li>Email: <span itemprop="email">zhenya.bulei@yandex.ru</span></li>
-            <li>GitHub: <a href="https://github.com/ZhenyaBulei">ZhenyaBulei</a></li>
-            <li>Discord: Yauhen Bulei (@ZhenyaBulei) in RS Shool Server</li>
-        </ul>
-    </section>
 
-    <section class="container container_content" >
-        <h2 id="about_me">About me:</h2>
-        <p>I am a calm, quiet person. I want to try to find myself in IT, at the moment I want to try the direction Front-End Development in RSSchool!</p>
-    </section>
-    
-    <section class="container container_content" >
-        <h2 id="skill">Skill:</h2>
-        <ul>
-            <li>HTML on Code Basics</li>
-            <li>CSS on Code Basics</li>
-            <li><i>See more in the near future</i></li>
-        </ul>
-    </section>
+<body>
+    <header class="header">
+        <div>
+            <nav class="container nav_list">
+                <a class="nav_link" href="#contacts">Contacts</a>
+                <a class="nav_link" href="#about_me">About me</a>
+                <a class="nav_link" href="#skill">Skill</a>
+                <a class="nav_link" href="#work_experience">Work experience</a>
+                <a class="nav_link" href="#code">Code</a>
+                <a class="nav_link" href="#еducation">Education</a>
+                <a class="nav_link" href="#language">Language</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="container container_head">
+            <img class="img_me" src="me.jpg" alt="It's was me" />
+            <h1>Yauheni Bulei</h1>
+        </section>
 
-    <section class="container container_content" >
-        <h2 id="work_experience">Work experience:</h2>
-        <p><i>Nothing yet…</i></p>
-    </section>
+        <section class="container container_content" itemscope itemtype="http://schema.org/Organization">
+            <h2 id="contacts">Contacts:</h2>
+            <ul>
+                <li>Location: <span itemprop="address">Brest, Belarus</span></li>
+                <li>Phone: <span itemprop="telephone"> +375 29 2268793</span></li>
+                <li>Email: <span itemprop="email">zhenya.bulei@yandex.ru</span></li>
+                <li>
+                    GitHub: <a href="https://github.com/ZhenyaBulei">ZhenyaBulei</a>
+                </li>
+                <li>Discord: Yauhen Bulei (@ZhenyaBulei) in RS Shool Server</li>
+            </ul>
+        </section>
 
-    <section class="container container_content" >
-        <h2 id="code">Code:</h2>
-        <code>alert("Hello, World!");</code>
-    </section>
+        <section class="container container_content">
+            <h2 id="about_me">About me:</h2>
+            <p>
+                I am a calm, quiet person. I want to try to find myself in IT, at the
+                moment I want to try the direction Front-End Development in RSSchool!
+            </p>
+        </section>
 
-    <section class="container container_content" >
-        <h2 id="еducation">Education:</h2>
-        <p>Brest State Technical University<br>Faculties: Electronics and Information systems<br>Specialities: Automated Data Processing Systems</p>
-        
-    </section>
+        <section class="container container_content">
+            <h2 id="skill">Skill:</h2>
+            <ul>
+                <li>HTML on Code Basics</li>
+                <li>CSS on Code Basics</li>
+                <li><i>See more in the near future</i></li>
+            </ul>
+        </section>
 
-    <section class="container container_content" >
-        <h2 id="language">Language:</h2>
-        <p>English level - A1</p>
-    </section>
+        <section class="container container_content">
+            <h2 id="work_experience">Work experience:</h2>
+            <p><i>Nothing yet…</i></p>
+        </section>
 
+        <section class="container container_content">
+            <h2 id="code">Code:</h2>
+            <code>alert("Hello, World!");</code>
+        </section>
+
+        <section class="container container_content">
+            <h2 id="еducation">Education:</h2>
+            <p>
+                Brest State Technical University<br />Faculties: Electronics and
+                Information systems<br />Specialities: Automated Data Processing
+                Systems
+            </p>
+        </section>
+
+        <section class="container container_content">
+            <h2 id="language">Language:</h2>
+            <p>English level - A1</p>
+        </section>
+    </main>
     <footer>
         <div class="container container_footer">
-            <span>@2022  <a class="footer_link" href="https://github.com/ZhenyaBulei">ZhenyaBulei</a></span>
-            <a href="https://rs.school/js/"><img class="img_footer" src="https://rs.school/images/rs_school_js.svg" alt="rs_school_js"></a>
-        </div>  
+            <span>@2022
+                <a class="footer_link" href="https://github.com/ZhenyaBulei">ZhenyaBulei</a></span>
+            <a href="https://rs.school/js/"><img class="img_footer" src="https://rs.school/images/rs_school_js.svg"
+                    alt="rs_school_js" /></a>
+        </div>
     </footer>
-</main>
 </body>
+
 </html>
